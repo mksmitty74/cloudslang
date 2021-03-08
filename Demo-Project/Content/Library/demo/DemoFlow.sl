@@ -8,11 +8,12 @@ flow:
             - target_host: cmp-new-master1.ftc.hpeswlab.net
             - packet_count: '2'
         navigate:
-          - SUCCESS: TestPrint
+          - SUCCESS: test
           - FAILURE: FAILURE
-    - TestPrint:
+    - test:
         do:
-          demo.TestPrint: []
+          com.microfocus.content.demo.test:
+            - text: Mark
         navigate:
           - SUCCESS: SUCCESS
   results:
@@ -28,11 +29,11 @@ extensions:
           1dc8b176-0ae2-8893-c29e-daec09b9068c:
             targetId: 7536fbf0-d1c6-9137-e2a7-15bd47fc47aa
             port: FAILURE
-      TestPrint:
-        x: 471
-        'y': 118
+      test:
+        x: 466
+        'y': 152.109375
         navigate:
-          9f7c8e99-1a65-f3d8-60f0-eb5569d265fa:
+          79956e86-684b-e402-60dd-9e00ad631598:
             targetId: ffa5e57d-3c93-2b55-8016-6f9ca798cb8e
             port: SUCCESS
     results:
