@@ -1,2 +1,2 @@
 # cloudslang
-Demo Cloud Slang
+Demo CloudSlang
