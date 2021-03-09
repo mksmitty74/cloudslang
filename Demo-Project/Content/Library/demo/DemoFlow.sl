@@ -12,8 +12,9 @@ flow:
           - FAILURE: FAILURE
     - test:
         do:
-          com.microfocus.content.demo.test:
-            - text: Mark
+          cloudslang.Demo-Project.Content.Library.demo.test:
+            - text: test
+            - test: test
         navigate:
           - SUCCESS: SUCCESS
   results:
@@ -30,10 +31,10 @@ extensions:
             targetId: 7536fbf0-d1c6-9137-e2a7-15bd47fc47aa
             port: FAILURE
       test:
-        x: 466
-        'y': 152.109375
+        x: 459
+        'y': 78
         navigate:
-          79956e86-684b-e402-60dd-9e00ad631598:
+          c79dca29-4c04-b233-1db8-f00d4281edc1:
             targetId: ffa5e57d-3c93-2b55-8016-6f9ca798cb8e
             port: SUCCESS
     results:
