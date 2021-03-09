@@ -15,6 +15,7 @@ flow:
           cloudslang.Demo-Project.Content.Library.demo.test:
             - text: test
             - test: test
+            - test1: '${text}'
         navigate:
           - SUCCESS: SUCCESS
   results:
