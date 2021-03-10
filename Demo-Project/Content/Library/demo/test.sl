@@ -5,7 +5,6 @@ operation:
 
   inputs:
     - text
-    - test
 
   python_action:
     script: print text
