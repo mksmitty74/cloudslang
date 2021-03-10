@@ -14,7 +14,6 @@ flow:
         do:
           cloudslang.Demo-Project.Content.Library.demo.test:
             - text: test
-            - test: text
         navigate:
           - SUCCESS: SUCCESS
   results:
@@ -31,10 +30,10 @@ extensions:
             targetId: 7536fbf0-d1c6-9137-e2a7-15bd47fc47aa
             port: FAILURE
       test:
-        x: 487
-        'y': 101
+        x: 511
+        'y': 93
         navigate:
-          5719f105-6f63-0b18-0b1b-d391e6b4345b:
+          11315b59-e4f5-e6c1-6695-fe892e1bca58:
             targetId: ffa5e57d-3c93-2b55-8016-6f9ca798cb8e
             port: SUCCESS
     results:
