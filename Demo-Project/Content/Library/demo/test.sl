@@ -1,4 +1,4 @@
-namespace: cloudslang.Demo-Project.Content.Library.demo
+namespace: cloudslang.DemoProject.Content.Library.demo
 
 operation:
   name: test
