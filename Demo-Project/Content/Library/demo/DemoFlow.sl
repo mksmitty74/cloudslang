@@ -13,8 +13,8 @@ flow:
     - test:
         do:
           cloudslang.Demo-Project.Content.Library.demo.test:
-            - text: Test
-            - test: test
+            - text: test
+            - test: text
         navigate:
           - SUCCESS: SUCCESS
   results:
