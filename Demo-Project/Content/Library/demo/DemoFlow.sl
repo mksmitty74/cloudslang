@@ -31,7 +31,7 @@ extensions:
             port: FAILURE
       test:
         x: 488
-        'y': 102
+        'y': 101
         navigate:
           5719f105-6f63-0b18-0b1b-d391e6b4345b:
             targetId: ffa5e57d-3c93-2b55-8016-6f9ca798cb8e
